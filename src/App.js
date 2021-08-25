@@ -16,7 +16,7 @@ function App() {
             <Route path="/drop-magnet" component={DropMagnet} />
             <Route path="/my-gallery" component={MyGallery} />
             <Route path="/politician" component={Politician} />
-            <Route path="/movie-farm" render={() => <MovieFarm/>}/>
+            <Route path="/movie-farm" component={MovieFarm}/>
         </Switch>
     </div>
   );
